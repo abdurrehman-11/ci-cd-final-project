@@ -1,0 +1,48 @@
+completed	success	Add unit test step and update README	CI workflow	main	push	42572571612	20s	2026-11-09T06:21:50Z
+completed	success	Update README with project name	CI workflow	main	push	42572390828	25s	2026-11-09T06:20:06Z
+completed	success	Use checkout v3	CI workflow	main	push	42571642234	21s	2026-11-09T06:12:30Z
+completed	success	Add CI workflow and update README	CI workflow	main	push	42571230549	22s	2026-11-09T06:08:15Z
+completed	failure	Initial commit	CI workflow	main	push	42569140257	0s	2026-11-09T05:45:45Z
+
+✓ main CI workflow · 42572571612
+Triggered via push about 12 minutes ago
+
+JOBS
+✓ build in 17s (ID 129013054729)
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+build: .github#1
+
+
+For more information about the job, try: gh run view --job=129013054729
+View this run on GitHub: https://github.com/abdurrehman-11/ci-cd-final-project/actions/runs/42572571612
+
+✓ main CI workflow · 42572571612
+Triggered via push about 12 minutes ago
+
+JOBS
+✓ build in 17s (ID 129013054729)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Install dependencies
+  ✓ Lint with flake8
+  ✓ Run unit tests with nose
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+build: .github#1
+
+
+For more information about the job, try: gh run view --job=129013054729
+View this run on GitHub: https://github.com/abdurrehman-11/ci-cd-final-project/actions/runs/42572571612
